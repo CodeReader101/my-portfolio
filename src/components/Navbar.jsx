@@ -15,7 +15,7 @@ const Navbar = () => {
                 to="/"
                 className={({ isActive }) =>
                   isActive
-                    ? "font-cursive tracking-normal text-white inline-flex items-center py-6 px-3 mr-4  text-6xl font-normal "
+                    ? "font-cursive tracking-normal text-white inline-flex items-center py-6 px-3 mr-4  text-6xl font-normal"
                     : "font-cursive tracking-normal text-white inline-flex items-center py-6 px-3 mr-4  text-6xl font-normal "}
               >
                 Shahbaj
@@ -26,8 +26,8 @@ const Navbar = () => {
                 to="/skills"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-white inline-flex items-center py-3 px-3 my-6 rounded "
-                    : "inline-flex items-center py-3 px-3 my-6 rounded text-white "
+                    ? "inline-flex items-center py-3 px-3 my-6 rounded text-[#e9322e]"
+                    : "inline-flex items-center py-3 px-3 my-6 rounded  text-white "
                 }
               >
                 Skills
@@ -36,7 +36,7 @@ const Navbar = () => {
                 to="/project"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-white inline-flex items-center py-3 px-3 my-6 rounded "
+                    ? "text-[#e9322e] inline-flex items-center py-3 px-3 my-6 rounded "
                     : "inline-flex items-center py-3 px-3 my-6 rounded text-white "
                 }
               >
@@ -46,7 +46,7 @@ const Navbar = () => {
                 to="/about"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-white inline-flex items-center py-3 px-3 my-6 rounded "
+                    ? "text-[#e9322e] inline-flex items-center py-3 px-3 my-6 rounded "
                     : "inline-flex items-center py-3 px-3 my-6 rounded text-white "
                 }
               >
