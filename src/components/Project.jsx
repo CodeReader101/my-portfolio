@@ -23,7 +23,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="flex flex-wrap justify-center min-h-screen lg:flex-row lg:justify-start gap-8 bg-black p-8">
+    <div className="flex flex-wrap justify-center min-h-screen lg:flex-row lg:justify-start gap-8 bg-[#19171a] p-8">
       {projects.map((project) => (
         <ProjectCard
           key={project._id}
